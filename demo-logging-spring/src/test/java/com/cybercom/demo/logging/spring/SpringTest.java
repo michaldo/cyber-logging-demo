@@ -15,7 +15,6 @@ public class SpringTest {
 
 		MySpringBean myBean = (MySpringBean) context.getBean("mySpringBean");
 		new MyScript().executeScript(myBean);
-		myBean.addSpringSpecific(3, 4);
 	}
 
 }
