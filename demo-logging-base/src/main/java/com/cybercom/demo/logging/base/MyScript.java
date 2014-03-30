@@ -3,6 +3,9 @@ package com.cybercom.demo.logging.base;
 import javax.print.PrintException;
 
 
+/**
+ * The Class MyScript can execute all methods from IMyBean object
+ */
 public class MyScript {
 	
 	public void executeScript(IMyBean myBean) {
