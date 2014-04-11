@@ -28,6 +28,8 @@ public interface IMyBean {
 	void errorThrowing() throws OutOfMemoryError ;
 	
 	CoolToString iWantToStringBeLogged();
+	
+	Object getNull(Object o);
 
 
 }

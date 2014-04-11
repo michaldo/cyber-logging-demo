@@ -57,4 +57,8 @@ public class MyBean implements IMyBean {
 		return new CoolToString("toString is well implemented and I want use it for logging");
 	}
 
+   public Object getNull(Object o) {
+      return null;
+   }
+
 }

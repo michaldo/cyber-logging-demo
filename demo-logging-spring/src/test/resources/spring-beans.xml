@@ -21,7 +21,7 @@
   <bean id="myMarker" class="com.cybercom.demo.logging.spring.MyMarker"></bean>
 
   <bean class="com.cybercom.logging.spring.LoggedSpringAspect"
-    p:markerProvider-ref="myMarker">
+    p:markerProvider-ref="myMarker" p:excludeDefaultTypes="true">
     <property name="excludedCustomTypes">
       <list>
         <value>com.cybercom.demo.logging.base.Password</value>

@@ -36,6 +36,8 @@ public class MyScript {
 		
 		myBean.iWantToStringBeLogged();
 		
+		myBean.getNull(null);
+		
 	}
 	
 

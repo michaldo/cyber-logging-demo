@@ -82,6 +82,12 @@ public class MySpringBean extends MyBean {
       // TODO Auto-generated method stub
       return super.iWantToStringBeLogged();
    }
+
+   @Override
+   public Object getNull(Object o) {
+      // TODO Auto-generated method stub
+      return super.getNull(o);
+   }
 	
 
 
