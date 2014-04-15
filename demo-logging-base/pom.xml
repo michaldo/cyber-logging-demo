@@ -15,7 +15,7 @@
     <dependency>
       <groupId>com.cybercom.logging</groupId>
       <artifactId>logging-core</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
     </dependency>
   </dependencies>
 </project>

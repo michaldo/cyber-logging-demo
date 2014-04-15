@@ -38,7 +38,7 @@
     <dependency>
       <groupId>com.cybercom.logging</groupId>
       <artifactId>logging-ejb</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
