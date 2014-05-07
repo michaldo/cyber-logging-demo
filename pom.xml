@@ -9,11 +9,14 @@
     <module>demo-logging-proxy</module>
     <module>demo-logging-ejb</module>
     <module>demo-logging-spring</module>
+    <module>demo-logging-cglib</module>
+    <module>demo-logging-spring-boot</module>
   </modules>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <cyber.logging.version>0.0.2</cyber.logging.version>
   </properties>
   <dependencyManagement>
     <dependencies>
