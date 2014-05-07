@@ -5,17 +5,11 @@
     <artifactId>demo-cyber-logging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>demo-logging-spring</artifactId>
-    <dependencies>
+  <artifactId>demo-logging-cglib</artifactId>
+  <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>3.2.5.RELEASE</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -30,7 +24,7 @@
     </dependency>
     <dependency>
       <groupId>com.cybercom.logging</groupId>
-      <artifactId>logging-spring</artifactId>
+      <artifactId>logging-cglib</artifactId>
       <version>${cyber.logging.version}</version>
       <scope>test</scope>
     </dependency>
